@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Example</title>
+</head>
+<body>
+    <h1>Welcome to the Chatbot</h1>
+    <div id="chat-container"></div>
+
+    <!-- Script tag for Chatbot -->
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "159e4bc2-ac9e-42e9-83d3-ddcd80bc6015",
+        apiHost: "http://104.45.190.186:3000",
+    })
+</script>
+</body>
+</html>
